@@ -1,0 +1,8 @@
+POST http://localhost:3000/clientes 
+content-type: application/json
+{
+    "nome":"Teste",
+    "tipoPessoa":"PJ",
+    "cpfOrCnpj":"10033824878",
+    "ativo":"true"
+}
